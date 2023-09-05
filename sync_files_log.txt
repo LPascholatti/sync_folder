@@ -1,0 +1,434 @@
+2023-09-05 16:43:36,910 - INFO: The source directory is: ./source
+2023-09-05 16:43:58,522 - INFO: Directory ./banana_boat has been created.
+2023-09-05 16:43:58,522 - INFO: The replica directory is: ./banana_boat
+2023-09-05 16:44:04,405 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:44:04,405 - INFO: The following files are missing at ./banana_boat:
+ {'file2.txt', 'file3.txt', 'file.txt'}
+2023-09-05 16:44:04,405 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:44:04,407 - INFO: Copied file2.txt to replica folder ./banana_boat
+2023-09-05 16:44:04,409 - INFO: Copied file3.txt to replica folder ./banana_boat
+2023-09-05 16:44:04,410 - INFO: Copied file.txt to replica folder ./banana_boat
+2023-09-05 16:44:24,413 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:44:24,414 - INFO: The following files are missing at ./banana_boat:
+ set()
+2023-09-05 16:44:24,415 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:44:44,420 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:44:44,420 - INFO: The following files are missing at ./banana_boat:
+ {'file2.txt', 'file3.txt', 'file.txt'}
+2023-09-05 16:44:44,421 - INFO: The following files are missing at ./source:
+ {'jnsdln.txt', 'janfljns.txt', 'aldkjf.txt'}
+2023-09-05 16:44:44,423 - INFO: Copied file2.txt to replica folder ./banana_boat
+2023-09-05 16:44:44,424 - INFO: Copied file3.txt to replica folder ./banana_boat
+2023-09-05 16:44:44,425 - INFO: Copied file.txt to replica folder ./banana_boat
+2023-09-05 16:44:44,425 - INFO: Removed jnsdln.txt from replica folder ./banana_boat
+2023-09-05 16:44:44,425 - INFO: Removed janfljns.txt from replica folder ./banana_boat
+2023-09-05 16:44:44,426 - INFO: Removed aldkjf.txt from replica folder ./banana_boat
+2023-09-05 16:45:04,428 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:45:04,428 - INFO: The following files are missing at ./banana_boat:
+ set()
+2023-09-05 16:45:04,428 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:46:13,214 - INFO: The source directory is: ./source
+2023-09-05 16:46:15,995 - INFO: The replica directory is: ./replica
+2023-09-05 16:46:21,184 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:46:21,184 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:46:21,185 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:46:36,190 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:46:36,192 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:46:36,192 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:46:51,197 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:46:51,199 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:46:51,199 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:47:06,206 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:47:06,206 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:47:06,207 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:47:21,209 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:47:21,211 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:47:21,211 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:47:36,212 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:47:36,213 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:47:36,213 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:47:51,218 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:47:51,218 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:47:51,218 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:48:06,224 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:48:06,224 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:48:06,224 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:48:21,229 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:48:21,229 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:48:21,229 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:48:36,235 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:48:36,235 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:48:36,235 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:48:51,239 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:48:51,239 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:48:51,239 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:49:06,245 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:49:06,245 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:49:06,245 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:49:21,252 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:49:21,253 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:49:21,253 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:49:36,259 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:49:36,259 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:49:36,259 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:49:51,265 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:49:51,265 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:49:51,265 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:50:06,271 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:50:06,271 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:50:06,271 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:50:21,278 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:50:21,278 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:50:21,278 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:50:36,282 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:50:36,283 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:50:36,283 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:50:51,290 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:50:51,290 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:50:51,290 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:51:06,296 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:51:06,296 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:51:06,296 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:51:21,302 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:51:21,303 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:51:21,303 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:51:36,308 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:51:36,309 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:51:36,309 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:51:51,314 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:51:51,315 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:51:51,315 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:52:06,319 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:52:06,319 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:52:06,319 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:52:21,325 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:52:21,325 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:52:21,325 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:52:36,331 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:52:36,331 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:52:36,331 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:52:51,336 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:52:51,337 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:52:51,337 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:53:06,340 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:53:06,340 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:53:06,341 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:53:21,345 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:53:21,345 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:53:21,346 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:53:36,351 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:53:36,351 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:53:36,351 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:53:51,356 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:53:51,357 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:53:51,357 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:54:06,362 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:54:06,363 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:54:06,363 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:54:21,370 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:54:21,370 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:54:21,370 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:54:36,372 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:54:36,373 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:54:36,373 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:54:51,378 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:54:51,379 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:54:51,379 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:55:06,382 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:55:06,383 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:55:06,383 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:55:21,383 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:55:21,383 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:55:21,383 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:55:36,387 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:55:36,387 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:55:36,387 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:55:51,393 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:55:51,394 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:55:51,394 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:56:06,399 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:56:06,399 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:56:06,399 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:56:21,407 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:56:21,407 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:56:21,407 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:56:36,413 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:56:36,413 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:56:36,413 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:56:51,414 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:56:51,414 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:56:51,414 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:57:06,420 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:57:06,420 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:57:06,421 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:57:21,426 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:57:21,426 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:57:21,426 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:57:36,431 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:57:36,433 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:57:36,433 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:57:51,440 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:57:51,440 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:57:51,440 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:58:06,446 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:58:06,446 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:58:06,446 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:58:21,452 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:58:21,453 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:58:21,453 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:58:36,458 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:58:36,459 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:58:36,459 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:58:51,466 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:58:51,467 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:58:51,467 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:59:06,478 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:59:06,478 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:59:06,478 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:59:21,490 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:59:21,491 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:59:21,491 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:59:36,503 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:59:36,504 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:59:36,504 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 16:59:51,514 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 16:59:51,514 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 16:59:51,515 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:00:06,525 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:00:06,526 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:00:06,527 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:00:21,537 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:00:21,538 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:00:21,539 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:00:36,549 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:00:36,550 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:00:36,550 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:00:51,560 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:00:51,561 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:00:51,561 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:01:06,574 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:01:06,575 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:01:06,575 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:01:21,585 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:01:21,587 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:01:21,587 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:01:36,598 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:01:36,598 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:01:36,598 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:01:51,602 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:01:51,602 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:01:51,602 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:02:06,608 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:02:06,608 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:02:06,608 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:02:21,611 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:02:21,611 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:02:21,611 - INFO: The following files are missing at ./source:
+ set()
+2023-09-05 17:02:36,613 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 17:02:36,614 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 17:02:36,614 - INFO: The following files are missing at ./source:
+ set()

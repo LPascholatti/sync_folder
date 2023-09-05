@@ -1,24 +1,43 @@
 import os
 import shutil
 import time
+import logging
 
-print("This script will synchronise the source and replica folders.")
+# Configure logging
+log_file = './sync_files_log.txt'
+logging.basicConfig(filename=log_file, level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s: %(message)s')
+
+print("This script will synchronise a source and replica directories.")
 
 # Input source and replica paths here:
-print("Please input the path of your source directory here: ")
-source_dir = input()
-print(f"Your source file is: {source_dir}")
+source_dir = input("Please input the path of your source directory here: ")
 
-print("Please input the path of your replica directory here: ")
-replica_dir = input()
-print(f"Your replica directory is: {replica_dir}")
+# Create dir for source in case it does not exist:
+if not os.path.isdir(source_dir):
+    os.makedirs(source_dir)
+    print(f"Directory {source_dir} has been created.")
+    logging.info(f"Directory {source_dir} has been created.")
+else:
+    print(f"The directory {source_dir} exists.")
 
-print("Add interval (number) in which you wish those paths to be synchronised: ")
-interval = int(input())
+print(f"The source directory is: {source_dir}")
+logging.info(f"The source directory is: {source_dir}")
 
-# Assert that source and replica are directories:
-assert os.path.isdir(source_dir), f"{source_dir} is not a directory."
-assert os.path.isdir(replica_dir), f"{replica_dir} is not a directory."
+replica_dir = input("Please input the path of your replica directory here: ")
+
+# Create dir for replica in case it does not exist:
+if not os.path.isdir(replica_dir):
+    os.makedirs(replica_dir)
+    print(f"Directory {replica_dir} has been created.")
+    logging.info(f"Directory {replica_dir} has been created.")
+else:
+    print(f"The directory {replica_dir} exists.")
+
+print(f"The replica directory is: {replica_dir}")
+logging.info(f"The replica directory is: {replica_dir}")
+
+interval = int(input("Add interval (number) for this synchronization: "))
 
 
 def synchronise_directories(source_dir, replica_dir):
@@ -28,6 +47,7 @@ def synchronise_directories(source_dir, replica_dir):
 
     # Print source path:
     print(f"These are the files at {source_dir}:\n {files_source}")
+    logging.info(f"These are the files at {source_dir}:\n {files_source}")
 
     # Create set from lists to get the difference in files between the two direcotires:
     source_set = set(files_source)
@@ -37,9 +57,13 @@ def synchronise_directories(source_dir, replica_dir):
     diff_source_files = source_set - replica_set
     print(
         f"The following files are missing at {replica_dir}:\n {diff_source_files}")
+    logging.info(
+        f"The following files are missing at {replica_dir}:\n {diff_source_files}")
 
     diff_replica_files = replica_set - source_set
     print(
+        f"The following files are missing at {source_dir}:\n {diff_replica_files}")
+    logging.info(
         f"The following files are missing at {source_dir}:\n {diff_replica_files}")
 
     # Copy files to replica directory
@@ -48,6 +72,7 @@ def synchronise_directories(source_dir, replica_dir):
         source_dir_path = os.path.join(source_dir, file)
         replica_dir_path = os.path.join(replica_dir, file)
         shutil.copy2(source_dir_path, replica_dir_path)
+        logging.info(f"Copied {file} to replica folder {replica_dir}")
 
     print(
         f"All the different files at {source_dir} have been copied to {replica_dir}.")
@@ -56,6 +81,7 @@ def synchronise_directories(source_dir, replica_dir):
     for file in diff_replica_files:
         replica_dir_path = os.path.join(replica_dir, file)
         os.remove(replica_dir_path)
+        logging.info(f"Removed {file} from replica folder {replica_dir}")
 
     print(
         f"All the different files at {replica_dir} have been deleted.")
