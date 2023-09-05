@@ -432,3 +432,11 @@
  set()
 2023-09-05 17:02:36,614 - INFO: The following files are missing at ./source:
  set()
+2023-09-05 18:17:45,450 - INFO: The source directory is: ./source
+2023-09-05 18:17:51,498 - INFO: The replica directory is: ./replica
+2023-09-05 18:17:55,798 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-05 18:17:55,799 - INFO: The following files are missing at ./replica:
+ set()
+2023-09-05 18:17:55,799 - INFO: The following files are missing at ./source:
+ set()

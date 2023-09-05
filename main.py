@@ -3,8 +3,11 @@ import shutil
 import time
 import logging
 
-# Configure logging
-log_file = './sync_files_log.txt'
+# Configure logging:
+input_log_file = input(f"Please enter the log filename without .txt: ").lower()
+log_file = f"./{input_log_file}.txt"
+print(f"You chose: {log_file}")
+
 logging.basicConfig(filename=log_file, level=logging.INFO,
                     format='%(asctime)s - %(levelname)s: %(message)s')
 
