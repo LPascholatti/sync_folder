@@ -4,8 +4,8 @@ import time
 import logging
 
 # Configure logging:
-input_log_file = input(f"Please enter the log filename without .txt: ").lower()
-log_file = f"./{input_log_file}.txt"
+log_file = input(
+    f"Please enter the log file path and name.txt: ").lower()
 print(f"You chose: {log_file}")
 
 logging.basicConfig(filename=log_file, level=logging.INFO,
