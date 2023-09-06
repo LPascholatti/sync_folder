@@ -1,0 +1,55 @@
+2023-09-06 14:36:49,214 - INFO: The source directory is: ./source
+2023-09-06 14:36:49,214 - INFO: The replica directory is: ./replica
+2023-09-06 14:36:52,077 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-06 14:36:52,080 - INFO: The different files to be copied from the source directory are: {'file2.txt': {'name': 'file2.txt', 'hash': {'name': './source/file2.txt', 'hash': 'fe5bc0399c90def2b752b3da2234e4499ac65b508127925d0aff3c470bb00fa6'}}, 'file.txt': {'name': 'file.txt', 'hash': {'name': './source/file.txt', 'hash': 'c3f2432e077115e60a0d82932cba0e4b15871e054cb12d4895848d01d2766177'}}, 'file3.txt': {'name': 'file3.txt', 'hash': {'name': './source/file3.txt', 'hash': '460c4359da9456c1fa58e62a13fb665c5fa7150d509b0e383852900aeb46b58a'}}}
+2023-09-06 14:36:52,080 - INFO: The missing files to be removed from the replica directory are: {'file2.txt': {'name': 'file2.txt', 'hash': {'name': './replica/file2.txt', 'hash': '61d1e50006916bca2b7495c86d3aed37014ebf5ca5f0811f04507491a5dcce1d'}}, 'file.txt': {'name': 'file.txt', 'hash': {'name': './replica/file.txt', 'hash': '47190bec49f7bbdd371b371b7ecacf6cd3feeb3d425cad9e3749caaffa922591'}}, 'file3.txt': {'name': 'file3.txt', 'hash': {'name': './replica/file3.txt', 'hash': 'b5b98ea3105ced2ba0f731821d89dca800794355f39a7a3d20cdcf953357fd09'}}}
+2023-09-06 14:36:52,081 - INFO: Copied file2.txt to replica folder ./replica
+2023-09-06 14:36:52,082 - INFO: Copied file.txt to replica folder ./replica
+2023-09-06 14:36:52,083 - INFO: Copied file3.txt to replica folder ./replica
+2023-09-06 14:36:52,083 - INFO: Removed file2.txt from replica folder ./replica
+2023-09-06 14:36:52,083 - INFO: Removed file.txt from replica folder ./replica
+2023-09-06 14:36:52,083 - INFO: Removed file3.txt from replica folder ./replica
+2023-09-06 14:37:12,118 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-06 14:37:12,121 - INFO: The different files to be copied from the source directory are: {'file2.txt': {'name': 'file2.txt', 'hash': {'name': './source/file2.txt', 'hash': '29f2499f1691152ea74b52e338024d79974e9449d70b7795041d369336491cd9'}}, 'file.txt': {'name': 'file.txt', 'hash': {'name': './source/file.txt', 'hash': '93c18624083eca2591c64a2346fce669a1d93a7e05d6bbc253fb62dbc36acb07'}}, 'file3.txt': {'name': 'file3.txt', 'hash': {'name': './source/file3.txt', 'hash': '9f48065e36212e0bfd8987f3922c9c15ecd413680431fa484cdc25a884b7ce62'}}}
+2023-09-06 14:37:12,121 - INFO: The missing files to be removed from the replica directory are: {}
+2023-09-06 14:37:12,122 - INFO: Copied file2.txt to replica folder ./replica
+2023-09-06 14:37:12,123 - INFO: Copied file.txt to replica folder ./replica
+2023-09-06 14:37:12,124 - INFO: Copied file3.txt to replica folder ./replica
+2023-09-06 14:37:32,140 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-06 14:37:32,143 - INFO: The different files to be copied from the source directory are: {'file2.txt': {'name': 'file2.txt', 'hash': {'name': './source/file2.txt', 'hash': '7e72a24e7524ef572f13d1081f6cd0af69c8a3f095f9ce4fc1df6fa9f8a3ad4a'}}, 'file.txt': {'name': 'file.txt', 'hash': {'name': './source/file.txt', 'hash': '9d470abde93acd4d5e67ad26c11f0a4e9e07db6db40eacccba33019642a92617'}}, 'file3.txt': {'name': 'file3.txt', 'hash': {'name': './source/file3.txt', 'hash': 'f436e7fe14d45699f29055054f457dfc35cc67b7ad0558878ce90bd61362cb0b'}}}
+2023-09-06 14:37:32,144 - INFO: The missing files to be removed from the replica directory are: {'file2.txt': {'name': 'file2.txt', 'hash': {'name': './replica/file2.txt', 'hash': 'af07606de288b7e40f6da63ab816dea8ced9a6dba0dd40d11640f0f4dd198d16'}}, 'file.txt': {'name': 'file.txt', 'hash': {'name': './replica/file.txt', 'hash': 'd08986b4dc77fe51207c21d60d4e7572f846d6d332b779460fe369b04325cf91'}}, 'file3.txt': {'name': 'file3.txt', 'hash': {'name': './replica/file3.txt', 'hash': 'c3a5e2b39572060d89769b5eb1aa0152d8bbf4bb5019e9bbd8862a242b4347b3'}}}
+2023-09-06 14:37:32,145 - INFO: Copied file2.txt to replica folder ./replica
+2023-09-06 14:37:32,146 - INFO: Copied file.txt to replica folder ./replica
+2023-09-06 14:37:32,147 - INFO: Copied file3.txt to replica folder ./replica
+2023-09-06 14:37:32,148 - INFO: Removed file2.txt from replica folder ./replica
+2023-09-06 14:37:32,148 - INFO: Removed file.txt from replica folder ./replica
+2023-09-06 14:37:32,148 - INFO: Removed file3.txt from replica folder ./replica
+2023-09-06 14:37:52,157 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-06 14:37:52,159 - INFO: The different files to be copied from the source directory are: {'file2.txt': {'name': 'file2.txt', 'hash': {'name': './source/file2.txt', 'hash': 'feedcb884f1c639a6522e21c8e8538e9b0357a25f0e1f9b02800cc41ef6f822e'}}, 'file.txt': {'name': 'file.txt', 'hash': {'name': './source/file.txt', 'hash': '59455b104a580680172adef0ae83581bd43d8ffcc460bc0f9b8be0b1e41d8e17'}}, 'file3.txt': {'name': 'file3.txt', 'hash': {'name': './source/file3.txt', 'hash': '662aaac2bbe7e795871ce2b3ac6e45da259f322cb6740b6d20e6c920babbd5d6'}}}
+2023-09-06 14:37:52,159 - INFO: The missing files to be removed from the replica directory are: {}
+2023-09-06 14:37:52,160 - INFO: Copied file2.txt to replica folder ./replica
+2023-09-06 14:37:52,161 - INFO: Copied file.txt to replica folder ./replica
+2023-09-06 14:37:52,162 - INFO: Copied file3.txt to replica folder ./replica
+2023-09-06 14:38:12,168 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-06 14:38:12,169 - INFO: The different files to be copied from the source directory are: {'file2.txt': {'name': 'file2.txt', 'hash': {'name': './source/file2.txt', 'hash': 'd33ffa4053cbf71fdf827716952ef3789646f5bf3a2f208ee245506e6dff5701'}}, 'file.txt': {'name': 'file.txt', 'hash': {'name': './source/file.txt', 'hash': '23b130ddc558217a909cee44f6d288c185a64e70e8a3590f66a3b153f84cf220'}}, 'file3.txt': {'name': 'file3.txt', 'hash': {'name': './source/file3.txt', 'hash': '5e169f3cc3295d16ee4adbeccea9c5723195544ab4f248c695d1e9a1164b1184'}}}
+2023-09-06 14:38:12,169 - INFO: The missing files to be removed from the replica directory are: {'file2.txt': {'name': 'file2.txt', 'hash': {'name': './replica/file2.txt', 'hash': 'a90f3290de0c335822ec225a3f73742477aa53daed4d2e0c9a04e029e1ef048e'}}, 'file.txt': {'name': 'file.txt', 'hash': {'name': './replica/file.txt', 'hash': '315941dd6ddf6339d489216106fb83935b1b58bd3b90dbca3ab5f7a387fc8af7'}}, 'file3.txt': {'name': 'file3.txt', 'hash': {'name': './replica/file3.txt', 'hash': '3c8c94b9e29fbbe658f4c012bdfd918b58b56eff7dca743c5e521dfe41a45684'}}}
+2023-09-06 14:38:12,171 - INFO: Copied file2.txt to replica folder ./replica
+2023-09-06 14:38:12,172 - INFO: Copied file.txt to replica folder ./replica
+2023-09-06 14:38:12,173 - INFO: Copied file3.txt to replica folder ./replica
+2023-09-06 14:38:12,173 - INFO: Removed file2.txt from replica folder ./replica
+2023-09-06 14:38:12,174 - INFO: Removed file.txt from replica folder ./replica
+2023-09-06 14:38:12,174 - INFO: Removed file3.txt from replica folder ./replica
+2023-09-06 14:39:25,493 - INFO: The source directory is: ./source
+2023-09-06 14:39:25,494 - INFO: The replica directory is: ./replica
+2023-09-06 14:39:30,067 - INFO: These are the files at ./source:
+ ['file2.txt', 'file.txt', 'file3.txt']
+2023-09-06 14:39:30,068 - INFO: The different files to be copied from the source directory are: {'file2.txt': {'name': 'file2.txt', 'hash': {'name': './source/file2.txt', 'hash': 'aa4345ff6a16b55ad05394b1ce93b60b882d711309ee0290bed1f17408278e90'}}, 'file.txt': {'name': 'file.txt', 'hash': {'name': './source/file.txt', 'hash': '2a58c5343100e491ef1ace019e1368cc8c79c814bc030574a6cfe5855d10a706'}}, 'file3.txt': {'name': 'file3.txt', 'hash': {'name': './source/file3.txt', 'hash': '11c632e9967eda331fb51da7bcc15f1ce028a3cef6ca5b68ff2886a3c9774c0f'}}}
+2023-09-06 14:39:30,068 - INFO: The missing files to be removed from the replica directory are: {}
+2023-09-06 14:39:30,070 - INFO: Copied file2.txt to replica folder ./replica
+2023-09-06 14:39:30,071 - INFO: Copied file.txt to replica folder ./replica
+2023-09-06 14:39:30,071 - INFO: Copied file3.txt to replica folder ./replica
