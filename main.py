@@ -71,49 +71,72 @@ def synchronise_directories(source_dir, replica_dir):
     print(f"These are the files at {source_dir}:\n {files_source}")
     logging.info(f"These are the files at {source_dir}:\n {files_source}")
 
-    source_hashes = []
-    replica_hashes = []
+    source_hashes = {}
+    replica_hashes = {}
+
+    source_dict = {}
+    replica_dict = {}
 
     for file in files_source:
         source_dir_path = os.path.join(source_dir, file)
         hash_file = calculate_sha256(source_dir_path)
-        source_hashes.append(hash_file)
+        source_hashes[file] = hash_file
+        file_info = {"name": source_dir_path, "hash": hash_file}
+        source_dict[file] = file_info
+
+    print("Source dictionary: ", source_dict)
 
     for file in files_replica:
         replica_dir_path = os.path.join(replica_dir, file)
         hash_file = calculate_sha256(replica_dir_path)
-        replica_hashes.append(hash_file)
+        replica_hashes[file] = hash_file
+        file_info = {"name": replica_dir_path, "hash": hash_file}
+        replica_dict[file] = file_info
 
-    hash_source_set = set(source_hashes)
-    print(hash_source_set)
-    hash_replica_set = set(replica_hashes)
-    print(hash_replica_set)
+    print("Replica dictionary: ", replica_dict)
 
-    diff_hashes_source = hash_source_set - hash_replica_set
-    print(diff_hashes_source)
+    # hash_source_set = set(source_hashes)
+    # hash_replica_set = set(replica_hashes)
 
-    diff_hashes_replica = hash_replica_set - hash_source_set
-    print(diff_hashes_replica)
+    # diff_hashes_source = hash_source_set - hash_replica_set
+    # diff_hashes_replica = hash_replica_set - hash_source_set
 
     # Create set from lists to get the difference in files between the two direcotires:
-    source_set = set(files_source)
-    replica_set = set(files_replica)
+    # source_set = set(files_source)
+    # replica_set = set(files_replica)
 
     # Differentiate files in both directories:
-    diff_source_files = source_set - replica_set
-    print(
-        f"The following hashes are missing at {replica_dir}:\n {diff_hashes_source}, with the following names: {diff_source_files}")
-    logging.info(
-        f"The following hashes are missing at {replica_dir}:\n {diff_hashes_replica}, with the following names: {diff_replica_files}")
+    # diff_source_files = source_set - replica_set
+    # diff_replica_files = replica_set - source_set
 
-    diff_replica_files = replica_set - source_set
-    print(
-        f"The following files are missing at {source_dir}:\n {diff_replica_files}, with the following hashes: {diff_hashes_replica}")
-    logging.info(
-        f"The following files are missing at {source_dir}:\n {diff_replica_files}, with the following hashes: {diff_hashes_replica}")
+    # print(
+    #     f"The following hashes are missing at {replica_dir}:\n {diff_hashes_source}, with the following names: {diff_source_files}")
+    # logging.info(
+    #     f"The following hashes are missing at {replica_dir}:\n {diff_hashes_replica}, with the following names: {diff_replica_files}")
+
+    # print(
+    #     f"The following hashes are missing at {source_dir}:\n {diff_hashes_replica}, with the following names: {diff_replica_files}")
+    # logging.info(
+    #     f"The following files are missing at {source_dir}:\n {diff_hashes_replica}, with the following names: {diff_replica_files}")
+
+    different_files = []
+    for file, hash in source_dict.items():
+        replica_hash = replica_hashes.get(file)
+        if hash != replica_hash:
+            different_files.append(file)
+
+    print("Different files: ", different_files)
+
+    missing_files = []
+    for file, hash in replica_dict.items():
+        source_hash = source_hashes.get(file)
+        if hash != source_hash:
+            missing_files.append(file)
+
+    print("Missing files: ", missing_files)
 
     # Copy files to replica directory
-    for file in diff_hashes_source:
+    for file in different_files:
         # print(file)
         source_dir_path = os.path.join(source_dir, file)
         replica_dir_path = os.path.join(replica_dir, file)
@@ -124,7 +147,7 @@ def synchronise_directories(source_dir, replica_dir):
         f"All the different files at {source_dir} have been copied to {replica_dir}.")
 
     # Delete files missing at source
-    for file in diff_hashes_replica:
+    for file in missing_files:
         replica_dir_path = os.path.join(replica_dir, file)
         os.remove(replica_dir_path)
         logging.info(f"Removed {file} from replica folder {replica_dir}")
