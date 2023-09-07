@@ -1,4 +1,4 @@
-# Synchronise Files
+# Synchronise Folders
 
 ## Requirements
 
