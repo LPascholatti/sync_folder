@@ -9,6 +9,8 @@ This script aims to synchronise directory A with directory B. With all changes i
 
 Currently using `./sync_folder/source` and `./sync_folder/replica` as test directories. The `./source` directory contains `.txt` files with dummy sentences for testing purposes.
 
+## Sync Folders - File Structure
+
 ### config.py
 
 - Inputs from the user a source and replica path from the command line.
