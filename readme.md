@@ -1,6 +1,7 @@
 # Synchronise Files
 
-### Requirements:
+## Requirements:
+
 - Python
 - Run it with `python main.py` in the script's directory.
 
